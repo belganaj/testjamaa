@@ -1,0 +1,162 @@
+[
+  {
+    "title":"الرئيسية",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"اخر الاخبار",
+        "provider":"wordpress",
+        "arguments":[
+          "yallalive.men"
+        ]
+      }
+      ,
+      {
+        "title":"مباريات اليوم",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/livetoday.html"
+        ]
+      },
+     
+      {
+        "title":"مباريات الغد",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/tomorrow.html"
+        ]
+      },
+      {
+        "title":"مباريات الامس",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/yesterday.html"
+        ]
+      }
+    ,
+        
+      {
+        "title":"ترتيب الفرق",
+        "provider":"overview",
+        "arguments":[
+          "https://raw.githubusercontent.com/belganaj/kora/master/tartib.json"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title":"مباريات اليوم",
+    "drawable":"ic_anime",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/livetoday.html"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title":"مباريات الغد",
+    "drawable":"ic_hot",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/tomorrow.html"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title":"مباريات الامس",
+    "drawable":"ic_action",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/yesterday.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"ترتيب الفرق",
+    "drawable":"ic_adventure",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"overview",
+        "arguments":[
+          "https://raw.githubusercontent.com/belganaj/kora/master/tartib.json"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title":"تقييم التطبيق",
+    "drawable":"ic_rate",
+    "submenu":"التواصل معنا والتقييم",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"تقييم التطبيق",
+        "provider":"custom",
+        "arguments":[
+          "",
+          "url"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"سياسة الخصوصية",
+    "drawable":"ic_adventure",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"webview",
+        "arguments":[
+          "http://yallalive.men/live/privacy_policy.html"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"مراسلة ",
+    "drawable":"ic_adventure",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "mailto:filmarma@yallalive.men",
+          "url"
+        ]
+      }
+    ]
+  }
+
+]
